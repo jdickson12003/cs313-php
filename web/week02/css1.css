@@ -1,0 +1,24 @@
+.div-first {
+	background-color: #1f1fff;
+	font-size: 3.3em;
+}
+
+.div-second {
+	font-size: 3.15em;
+}
+
+.div-third {
+	font-size: 3.0em;
+}
+
+#div2 {
+	background-color: #1f1fff;
+}
+
+#div3 {
+	background-color: #1f1fff;
+}
+
+.hover-bold:hover {
+	font-weight: bold;
+}

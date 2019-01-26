@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Gift Shop</title>
+    <link href="../index.css" rel="stylesheet" type="text/css">
+    <link href="prove03.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <a id="top"></a>
+    <h1>Buy a new car!</h1>
+      <header>
+        <table>
+          <tr>
+            <th><a href="../index.php">Home</a></th>
+            <th><a href="../assignments.html">Assignments</a></th>
+            <th><a href="https://ilearn.byui.edu/">I-Learn</a></th>
+            <th><a href="#bottom">Bottom of the page</a></th>
+          </tr>
+        </table>
+      </header>
+
+      <hr/>
+
+    <form action="prove03.php" method="post">
+      <span id="product1"><b>Name: </b></span>
+      <input type="text" name="name"><br/><br/>
+
+      <span id="product2"><b>Email: </b></span>
+      <input type="text" name="email"><br/><br/>
+
+      <span id="product3"><b>Major: </b></span>
+      <select id="major">
+        <option name="major" value="cs">Computer Science</option>
+        <option name="major" value="web">Web Design and Development</option>
+        <option name="major" value="cit">Computer Information Technology</option>
+        <option name="major" value="ce">Computer Engineering</option>
+      </select><br/><br/>
+
+      <span id="product4"><b>Comments: </b></span>
+      <input type="textbox" name="comments"><br/><br/>
+
+      <input type="submit" name="placeOrder" id="submitButton"
+          value="Place Order">
+    </form>
+
+    <hr/>
+         
+      <footer>
+        <table><tr><th><a href="#top">Top of page</a></th></tr></table>
+      </footer>
+
+      <br/>
+      <a id="bottom"></a> 
+  </body>
+</html>

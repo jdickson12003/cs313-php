@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Team Activity 02</title>
+		<link rel="stylesheet" type="text/css" href="css1.css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js1.js"></script>
+	</head>
+
+	<body>
+		<div id=full-div style="width: 100%;">
+			<div id="div1" style="float: left; width: 33.3%;" class="div-first hover-bold">Div 1</div>
+			<div id="div2" style="float: left; width: 33.3%;" class="div-second hover-bold">Div 2</div>
+			<div id="div3" style="float: left; width: 33.3%;" class="div-third hover-bold">Div 3</div>
+		</div>
+
+		<br/><br/><br/>
+
+		<button onclick="clickMe();">Click me!</button>
+
+		<br/><br/>
+
+		<span>
+			<label for="txt1Color">Color:</label> <input type="text" id="txt1Color" maxlength="6" size="8" placeholder="ffffff">
+
+			<br/><br/>
+
+			<button onclick="changeDiv1Color();">Change 1st div color</button>
+
+		</span>
+
+		<br/><br/>
+
+		<span>
+
+			<label for="txt2Color">Color:</label> <input type="text" id="txt2Color" maxlength="6" size="8" placeholder="000000">
+
+			<br/><br/>
+
+			<button id="div2button">Change 2nd div color</button>
+		</span>
+
+		<span>
+
+			<br/><br/>
+
+			<button id="hidediv3">Hide 3rd div</button>
+		</span>
+
+	</body>
+
+</html>
